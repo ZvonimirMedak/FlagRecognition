@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178BFD1C25D1F0AC00A85D76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BFD1B25D1F0AC00A85D76 /* AppDelegate.swift */; };
+		178BFD2525D1F0AD00A85D76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178BFD2425D1F0AD00A85D76 /* Assets.xcassets */; };
+		178BFD2825D1F0AD00A85D76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178BFD2625D1F0AD00A85D76 /* LaunchScreen.storyboard */; };
+		178BFD3325D1F14300A85D76 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BFD3225D1F14300A85D76 /* UIViewExtensions.swift */; };
+		178BFD3625D1F15C00A85D76 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BFD3525D1F15C00A85D76 /* UIImageExtension.swift */; };
+		178BFD3C25D1F19400A85D76 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BFD3B25D1F19400A85D76 /* AppCoordinator.swift */; };
+		178BFD4025D1F1AB00A85D76 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BFD3F25D1F1AB00A85D76 /* Coordinator.swift */; };
+		178BFD4425D1F1BB00A85D76 /* CoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BFD4325D1F1BB00A85D76 /* CoordinatorDelegate.swift */; };
+		178BFD4725D1F1C900A85D76 /* ParentCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BFD4625D1F1C900A85D76 /* ParentCoordinatorDelegate.swift */; };
+		178BFD5125D1F21900A85D76 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BFD5025D1F21900A85D76 /* HomeViewController.swift */; };
+		178BFD5525D1F22E00A85D76 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BFD5425D1F22E00A85D76 /* HomeCoordinator.swift */; };
+		178BFD5825D1F25600A85D76 /* FlagRecognizerModel 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 178BFD5725D1F25600A85D76 /* FlagRecognizerModel 2.mlmodel */; };
+		85173DB380BAA76E665115B0 /* Pods_FlagRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337F1EF0C917CF74417F69EB /* Pods_FlagRecognition.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		178BFD1825D1F0AC00A85D76 /* FlagRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178BFD1B25D1F0AC00A85D76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		178BFD2425D1F0AD00A85D76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178BFD2725D1F0AD00A85D76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		178BFD2925D1F0AD00A85D76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178BFD3225D1F14300A85D76 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		178BFD3525D1F15C00A85D76 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		178BFD3B25D1F19400A85D76 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		178BFD3F25D1F1AB00A85D76 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		178BFD4325D1F1BB00A85D76 /* CoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorDelegate.swift; sourceTree = "<group>"; };
+		178BFD4625D1F1C900A85D76 /* ParentCoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentCoordinatorDelegate.swift; sourceTree = "<group>"; };
+		178BFD5025D1F21900A85D76 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		178BFD5425D1F22E00A85D76 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		178BFD5725D1F25600A85D76 /* FlagRecognizerModel 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FlagRecognizerModel 2.mlmodel"; sourceTree = "<group>"; };
+		337F1EF0C917CF74417F69EB /* Pods_FlagRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlagRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF8F53B0EDB11D0377A1F97 /* Pods-FlagRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlagRecognition.release.xcconfig"; path = "Target Support Files/Pods-FlagRecognition/Pods-FlagRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		EA6B3757D00460F0BE18AFDC /* Pods-FlagRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlagRecognition.debug.xcconfig"; path = "Target Support Files/Pods-FlagRecognition/Pods-FlagRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178BFD1525D1F0AC00A85D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85173DB380BAA76E665115B0 /* Pods_FlagRecognition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174C5541EBC3347D288A2A01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				337F1EF0C917CF74417F69EB /* Pods_FlagRecognition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		178BFD0F25D1F0AC00A85D76 = {
+			isa = PBXGroup;
+			children = (
+				178BFD1A25D1F0AC00A85D76 /* FlagRecognition */,
+				178BFD1925D1F0AC00A85D76 /* Products */,
+				F35F58DFAA945DA0A7AC979E /* Pods */,
+				174C5541EBC3347D288A2A01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		178BFD1925D1F0AC00A85D76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178BFD1825D1F0AC00A85D76 /* FlagRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178BFD1A25D1F0AC00A85D76 /* FlagRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				178BFD5725D1F25600A85D76 /* FlagRecognizerModel 2.mlmodel */,
+				178BFD4B25D1F1F100A85D76 /* Home */,
+				178BFD4925D1F1DE00A85D76 /* Resources */,
+				178BFD3025D1F12E00A85D76 /* Shared */,
+				178BFD2925D1F0AD00A85D76 /* Info.plist */,
+			);
+			path = FlagRecognition;
+			sourceTree = "<group>";
+		};
+		178BFD3025D1F12E00A85D76 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				178BFD3A25D1F17B00A85D76 /* Coordinator */,
+				178BFD3825D1F16D00A85D76 /* Protocols */,
+				178BFD3125D1F13500A85D76 /* Extensions */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		178BFD3125D1F13500A85D76 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				178BFD3225D1F14300A85D76 /* UIViewExtensions.swift */,
+				178BFD3525D1F15C00A85D76 /* UIImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		178BFD3825D1F16D00A85D76 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				178BFD3F25D1F1AB00A85D76 /* Coordinator.swift */,
+				178BFD4325D1F1BB00A85D76 /* CoordinatorDelegate.swift */,
+				178BFD4625D1F1C900A85D76 /* ParentCoordinatorDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		178BFD3A25D1F17B00A85D76 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				178BFD1B25D1F0AC00A85D76 /* AppDelegate.swift */,
+				178BFD3B25D1F19400A85D76 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		178BFD4925D1F1DE00A85D76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				178BFD2625D1F0AD00A85D76 /* LaunchScreen.storyboard */,
+				178BFD2425D1F0AD00A85D76 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		178BFD4B25D1F1F100A85D76 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				178BFD4F25D1F20E00A85D76 /* UI */,
+				178BFD4E25D1F20700A85D76 /* Coordinator */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		178BFD4E25D1F20700A85D76 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				178BFD5425D1F22E00A85D76 /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		178BFD4F25D1F20E00A85D76 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				178BFD5025D1F21900A85D76 /* HomeViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F35F58DFAA945DA0A7AC979E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B3757D00460F0BE18AFDC /* Pods-FlagRecognition.debug.xcconfig */,
+				BFF8F53B0EDB11D0377A1F97 /* Pods-FlagRecognition.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178BFD1725D1F0AC00A85D76 /* FlagRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178BFD2C25D1F0AD00A85D76 /* Build configuration list for PBXNativeTarget "FlagRecognition" */;
+			buildPhases = (
+				70EFB57DC30E73B537E1FC20 /* [CP] Check Pods Manifest.lock */,
+				178BFD1425D1F0AC00A85D76 /* Sources */,
+				178BFD1525D1F0AC00A85D76 /* Frameworks */,
+				178BFD1625D1F0AC00A85D76 /* Resources */,
+				89FDB3A042F831240F182ACF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlagRecognition;
+			productName = FlagRecognition;
+			productReference = 178BFD1825D1F0AC00A85D76 /* FlagRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178BFD1025D1F0AC00A85D76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					178BFD1725D1F0AC00A85D76 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 178BFD1325D1F0AC00A85D76 /* Build configuration list for PBXProject "FlagRecognition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 178BFD0F25D1F0AC00A85D76;
+			productRefGroup = 178BFD1925D1F0AC00A85D76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178BFD1725D1F0AC00A85D76 /* FlagRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178BFD1625D1F0AC00A85D76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178BFD2825D1F0AD00A85D76 /* LaunchScreen.storyboard in Resources */,
+				178BFD2525D1F0AD00A85D76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70EFB57DC30E73B537E1FC20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlagRecognition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89FDB3A042F831240F182ACF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlagRecognition/Pods-FlagRecognition-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlagRecognition/Pods-FlagRecognition-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlagRecognition/Pods-FlagRecognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178BFD1425D1F0AC00A85D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178BFD3C25D1F19400A85D76 /* AppCoordinator.swift in Sources */,
+				178BFD1C25D1F0AC00A85D76 /* AppDelegate.swift in Sources */,
+				178BFD5525D1F22E00A85D76 /* HomeCoordinator.swift in Sources */,
+				178BFD4425D1F1BB00A85D76 /* CoordinatorDelegate.swift in Sources */,
+				178BFD5825D1F25600A85D76 /* FlagRecognizerModel 2.mlmodel in Sources */,
+				178BFD5125D1F21900A85D76 /* HomeViewController.swift in Sources */,
+				178BFD4725D1F1C900A85D76 /* ParentCoordinatorDelegate.swift in Sources */,
+				178BFD3325D1F14300A85D76 /* UIViewExtensions.swift in Sources */,
+				178BFD3625D1F15C00A85D76 /* UIImageExtension.swift in Sources */,
+				178BFD4025D1F1AB00A85D76 /* Coordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		178BFD2625D1F0AD00A85D76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178BFD2725D1F0AD00A85D76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		178BFD2A25D1F0AD00A85D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		178BFD2B25D1F0AD00A85D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178BFD2D25D1F0AD00A85D76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6B3757D00460F0BE18AFDC /* Pods-FlagRecognition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlagRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvonimirmedak.FlagRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178BFD2E25D1F0AD00A85D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF8F53B0EDB11D0377A1F97 /* Pods-FlagRecognition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlagRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zvonimirmedak.FlagRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178BFD1325D1F0AC00A85D76 /* Build configuration list for PBXProject "FlagRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178BFD2A25D1F0AD00A85D76 /* Debug */,
+				178BFD2B25D1F0AD00A85D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178BFD2C25D1F0AD00A85D76 /* Build configuration list for PBXNativeTarget "FlagRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178BFD2D25D1F0AD00A85D76 /* Debug */,
+				178BFD2E25D1F0AD00A85D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178BFD1025D1F0AC00A85D76 /* Project object */;
+}
